@@ -1,4 +1,4 @@
-https://codepen.io/markporo/pen/xxRmdGN?editors=1100    
+ CODEPEN ASSIGNMENT URL: https://codepen.io/markporo/pen/xxRmdGN 
 
     1. What is Semantic HTML? 
 	-Semantic HTML is self-describing code. 
@@ -143,3 +143,4 @@ Stretch Questions
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 	-It's how content is viewed.  The content is in the middle the padding is apart of the content --an extension to its width or height.  The border goes around that content and is the last edge of the content.  Then the margin is a separate space around the content.  
+	-The fix is to use box-sizing: border-box. However, margins will still be outside of the elements even with this fix. 
